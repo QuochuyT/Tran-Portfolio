@@ -270,14 +270,18 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Contactez-moi <span></span></h2>
-        <form action="">
+        <form action="https://formspree.io/f/mvgoqzba" method="post" target="_blank">
             <div class="input-box">
+                <label for="name"></label>
                 <input type="text" name="name" placeholder="Nom" required>
+                <label for="email"></label>
                 <input type="email" placeholder="Email" required>
-                <input type="Number" placeholder="Numéro" required>
+                <label for="number"></label>
+                <input type="number" placeholder="Numéro" required>
+                <label for="text"></label>
                 <input type="text" placeholder="Sujet">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+            <textarea name="text" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
             <input type="submit" value="Envoyez" class="btn">
         </form>
     </section>
